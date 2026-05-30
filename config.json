@@ -1,0 +1,15 @@
+{
+  "deck_root": "My Cards",
+  "advanced_deck_root": null,
+  "model_name": null,
+  "content_language": "zh-TW",
+  "no_card_folders": ["notes"],
+  "advanced_tag": "advanced",
+  "field_labels": {
+    "question": "題目",
+    "key_points": "重點",
+    "answer": "解答",
+    "source": "出處",
+    "tags": "標籤"
+  }
+}

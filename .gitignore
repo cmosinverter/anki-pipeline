@@ -1,0 +1,15 @@
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+.obsidian/
+*.swp
+*~
+
+# Python
+__pycache__/
+*.pyc
