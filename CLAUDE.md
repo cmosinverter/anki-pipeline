@@ -134,6 +134,11 @@ Every card in a category folder uses this format. The bold labels come from
 ```
 
 Notes:
+- **Never reveal the answer in the card front.** The front is the `## title`
+  + the **question** section (§7a) — neither may give away the answer. Keep the
+  title neutral/topical (name the problem, don't state its result), and don't
+  let the question text, hints, or examples leak the solution. Key points and
+  the answer live on the **back** only.
 - **Question**: keep the original wording; don't rewrite needlessly.
 - For **library-function reimplementation** questions (hand-rolling something
   like `strcpy`/`atoi`), include the standard **prototype** in a code block so
@@ -218,6 +223,8 @@ The script:
 and writes `anki/<category>/<topic>.txt` (importable manually via File → Import):
 
 - **Front** = `## title` + the question section (code blocks → `<pre><code>`)
+  — **must not reveal the answer** (see §4); keep the title neutral and the
+  question free of solution hints.
 - **Back** = key-points + answer + source
 - **Tags** = the tags line + `<category>` + `<topic>` +
   `guid::<category>::<topic>::<slug>` (used for dedup)
